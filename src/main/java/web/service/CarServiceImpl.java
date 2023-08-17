@@ -17,7 +17,7 @@ public class CarServiceImpl implements CarService{
     }
 
     @Override
-    public List<Car> show(int count) {
+    public List<Car> show(Long count) {
         return carDAO.show(count);
     }
 }
